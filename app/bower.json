@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "homepage": "https://github.com/ndpdarshana/gulp-stater",
+  "authors": [
+    "ndpdarshana <ndp.mymail@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "angular": "^1.6.1"
+  }
+}

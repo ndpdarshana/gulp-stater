@@ -1,0 +1,31 @@
+{
+  "name": "gulp-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndpdarshana/gulp-stater.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndpdarshana/gulp-stater/issues"
+  },
+  "homepage": "https://github.com/ndpdarshana/gulp-stater#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-compass": "^2.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "susy": "^2.2.12"
+  }
+}
