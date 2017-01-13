@@ -9,6 +9,7 @@ http://joellongie.com/gulp-build-system-part-2-setup/
 Summery
 
 ----- Project file structure ------
+<pre>
 .
 ├── project
 │   └── app
@@ -18,46 +19,50 @@ Summery
         └── index.html
     └── .gitignore
     └── readme.md
-
+</pre>
 ----- bower package manager ------
-
-install bower on nodejs
-npm install -g bower
-
+<pre>
+<code>install bower on nodejs</code>
+<code>npm install -g bower </code>
+</pre>
 ------ bower on project -------
-
-bower init
+<pre>
+<code>bower init</code>
 ? name [hit enter]
+</pre>
 This command will generate bower.json and bower_components folder in our project
 
 bowe install/uninstall packages:
-
-bower install PACKAGE --save
-bower uninstall PACKAGE --save
-
-Existing bower project initialize:
-bower install
+<pre>
+<code>bower install PACKAGE --save</code>
+<code>bower uninstall PACKAGE --save</code>
+</pre>
 
 example:
+<pre>
+<code>bower install angular --save</code>
+</pre>
 
-bower install angular --save
+Existing bower project initialize:
+<code>bower install</code>
 
 see paths for packages:
 
-bower list --paths
+<code>bower list --paths</code>
 
 ------- Nodejs on project ---------
-
-npn init
+<pre>
+<code>npn init</code>
 [hit enter]
+</pre>
 This command will generate package.json and node_modules on our project
 
 ------ Gulp installation -----------
 
 -- Global gulp installation
-npm install -g gulp
+<code>npm install -g gulp</code>
 
 -- local gulp installation on the project
-npm install gulp --save-dev
+<code>npm install gulp --save-dev</code>
 
-touch gulpfile.js --> To generate gulpfile.js on the project
+<code>touch gulpfile.js</code> --> To generate gulpfile.js on the project
